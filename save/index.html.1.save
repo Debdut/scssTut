@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Aquaponic Store</title>
+  </head>
+  <body>
+
+    <h1>The Aquaponic Store</h1>
+    <h2>Grow your own vegetables</h2>
+
+    <p>Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables Grow your own vegetables
+    </p>
+
+    <h3>Product List</h3>
+    <ul>
+      <li>Plant</li>
+      <li>Fish</li>
+      <li>Tank</li>
+      <li>Pump</li>
+    </ul>
+
+    <a href="http://google.com">Go To Google</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Tax</th>
+      </tr>
+
+      <tr>
+        <td>Plant</td>
+        <td>100</td>
+        <td>10%</td>
+      </tr>
+
+      <tr>
+        <td>Fish</td>
+        <td>200</td>
+        <td>5%</td>
+      </tr>
+
+      <tr>
+        <td>Tank</td>
+        <td>500</td>
+        <td>20%</td>
+      </tr>
+
+      <tr>
+        <td>Pump</td>
+        <td>300</td>
+        <td>0%</td>
+      </tr>
+
+    </table>
+
+    <img src="img/100x100.png" alt="">
+    <img src="http://via.placeholder.com/500x300" alt="">
+
+  </body>
+</html>
