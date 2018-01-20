@@ -1,0 +1,16 @@
+{
+  "name": "scsstut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss:watcher": "node-sass scss/main.scss css/main.css -w",
+    "compile:scss": "node-sass scss/main.scss css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
