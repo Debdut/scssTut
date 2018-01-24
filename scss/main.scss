@@ -1,62 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// Abstracts
+@import "abstracts/variables";
+@import "abstracts/global";
 
-.item-1 {
-  background: #b03532;
-  grid-column: 2;
-  grid-row: 2;
-}
-.item-2 {
-  background: #33a8a5;
-  grid-column: 4;
-  grid-row: 2;
-}
-.item-3 {
-  background: #30997a;
-  grid-column: 6;
-  grid-row: 2;
-}
-.item-4 {
-  background: #6a478f;
-  grid-column: 2;
-  grid-row: 4;
-}
-.item-5 {
-  background: #da6f2b;
-  grid-column: 4;
-  grid-row: 4;
-}
-.item-6 {
-  background: #3d8bb1;
-  grid-column: 6;
-  grid-row: 4;
-}
-.item-7 {
-  background: #e03f3f;
-  grid-column: 2;
-  grid-row: 6;
-}
-.item-8 {
-  background: #59a627;
-  grid-column: 4;
-  grid-row: 6;
-}
-.item-9 {
-  background: #4464a1;
-  grid-column: 6;
-  grid-row: 6;
-}
 
-div {
-  color: white;
-  padding: 10px;
-}
+// Atoms
 
-.grid-1 {
-  display: grid;
-  grid-template-columns: 30px 1fr 30px 1fr 30px 1fr 30px;
-  grid-template-rows: 20px 50px 20px 50px 20px 50px 20px;
-}
+
+// Molecules
+@import "molecules/mainBar";
+
+// Organisms
+
+
+// Layouts
+
+
+// Pages
+@import "pages/home";

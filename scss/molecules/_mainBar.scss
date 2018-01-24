@@ -1,0 +1,48 @@
+.main-bar {
+  height: $mainbar-height;
+  display: grid;
+  grid-template-columns: $mainbar-logo-image-width $mainbar-text-width 1fr $mainbar-link-width $mainbar-link-width;
+  margin-bottom: $mainbar-margin-bottom;
+  padding: $mainbar-padding;
+
+  background-color: $mainbar-background-color;
+  color: $mainbar-font-color;
+  padding: 1.5rem;
+
+  .logo-text {
+    font-size: $mainbar-logo-text-font-size;
+    color: $mainbar-font-color;
+  }
+
+  .logo-image {
+  }
+
+  .search-box {
+
+    input {
+      width: 100%;
+      height: 90%;
+      font-size: 3rem;
+    }
+  }
+
+  .my-account {
+
+    a {
+      text-decoration: none;
+      color: $mainbar-font-color;
+      font-size: 1.8rem;
+      float: right;
+    }
+  }
+
+  .cart {
+
+    a {
+      text-decoration: none;
+      color: $mainbar-font-color;
+      font-size: 1.8rem;
+      float: right;
+    }
+  }
+}
